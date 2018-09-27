@@ -1,0 +1,27 @@
+{
+  "name": "@writetome51/get-sum-average-product",
+  "version": "1.0.0",
+  "description": "For common manipulation of numbers.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-sum-average-product.git"
+  },
+  "keywords": [
+    "math",
+    "numbers",
+    "functions"
+  ],
+  "author": "Steve Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/writetome51/get-sum-average-product/issues"
+  },
+  "homepage": "",
+  "dependencies": {
+    "error-if-array-item-is-not-number": "latest"
+  }
+}
