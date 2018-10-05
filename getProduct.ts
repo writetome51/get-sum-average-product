@@ -1,6 +1,6 @@
 import { errorIfArrayItemIsNotNumber }
 	from 'error-if-array-item-is-not-number/errorIfArrayItemIsNotNumber';
-import { errorIfNotPopulatedArray } from './errorIfNotPopulatedArray';
+import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
 export function getProduct(numbers: number[]): number {
