@@ -16,7 +16,6 @@
   "homepage": "",
   "dependencies": {
     "error-if-array-item-is-not-number": "latest",
-    "error-if-not-populated-array": "latest",
-    "basic-data-handling": "latest"
+    "error-if-not-populated-array": "latest"
   }
 }
