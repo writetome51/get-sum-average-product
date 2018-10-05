@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "For common manipulation of numbers.",
   "main": "",
   "scripts": {
@@ -15,6 +15,7 @@
   "license": "MIT",
   "homepage": "",
   "dependencies": {
-    "error-if-array-item-is-not-number": "latest"
+    "error-if-array-item-is-not-number": "latest",
+    "basic-data-handling": "latest"
   }
 }
