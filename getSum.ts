@@ -1,5 +1,5 @@
 import { errorIfArrayItemIsNotNumber } 
-	from 'error-if-array-item-is-not-number/errorIfArrayItemIsNotNumber';
+	from 'error-if-array-item-is-not-number';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
