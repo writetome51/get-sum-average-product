@@ -1,21 +1,29 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "keywords": [
     "math",
     "numbers",
     "functions"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/writetome51/get-sum-average-product.git"
+  },
+  "bugs": {
+    "url": "https://github.com/writetome51/get-sum-average-product/issues"
+  },
   "author": "Steve Thompson",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/writetome51/get-sum-average-product#readme",
   "dependencies": {
-    "error-if-array-item-is-not-number": "~1.0.3",
-    "error-if-not-populated-array": "~1.0.0"
+    "error-if-array-item-is-not-number": "~1.0.4",
+    "error-if-not-populated-array": "~1.0.1"
   }
 }

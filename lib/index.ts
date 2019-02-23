@@ -26,7 +26,7 @@ export function getProduct(numbers: number[]): number {
 }
 
 
-export function getAverage(numbers): number {
+export function getAverage(numbers: number[]): number {
 	let sum = getSum(numbers);
 	return (sum / numbers.length);
 }

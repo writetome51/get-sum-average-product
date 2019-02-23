@@ -1,4 +1,4 @@
-import { getAverage, getProduct, getSum } from './getSum_getAverage_getProduct';
+import { getAverage, getProduct, getSum } from './index';
 
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
