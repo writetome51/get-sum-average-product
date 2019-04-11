@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -23,7 +23,7 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/get-sum-average-product#readme",
   "dependencies": {
-    "error-if-array-item-is-not-number": "~1.0.4",
-    "error-if-not-populated-array": "~1.0.1"
+    "error-if-not-finite-number": "~1.0.0",
+    "error-if-not-populated-array": "~1.0.2"
   }
 }

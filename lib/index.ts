@@ -1,4 +1,4 @@
-import { errorIfArrayItemIsNotNumber } from 'error-if-array-item-is-not-number';
+import { errorIfNotFiniteNumber } from 'error-if-not-finite-number';
 import { errorIfNotPopulatedArray } from 'error-if-not-populated-array';
 
 
@@ -7,7 +7,7 @@ export function getSum(numbers: number[]): number {
 	let total = 0;
 	for (let i = 0; i < numbers.length; ++i) {
 
-		errorIfArrayItemIsNotNumber(numbers[i]);
+		errorIfNotFiniteNumber(numbers[i]);
 		total += numbers[i];
 	}
 	return total;
@@ -19,7 +19,7 @@ export function getProduct(numbers: number[]): number {
 	let product = 1;
 	for (let i = 0; i < numbers.length; ++i) {
 
-		errorIfArrayItemIsNotNumber(numbers[i]);
+		errorIfNotFiniteNumber(numbers[i]);
 		product *= numbers[i];
 	}
 	return product;
