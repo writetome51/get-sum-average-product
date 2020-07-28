@@ -3,11 +3,7 @@
   "version": "2.0.0",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
   "type": "module",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
+  "main": "index.js",
   "keywords": [
     "math",
     "numbers",
