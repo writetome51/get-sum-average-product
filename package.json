@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
   "type": "module",
   "main": "index.js",
@@ -20,7 +20,8 @@
   "license": "MIT",
   "homepage": "https://github.com/writetome51/get-sum-average-product#readme",
   "dependencies": {
-    "error-if-not-finite-number": "^2.0.0",
-    "error-if-length-is-zero": "^1.0.0"
+    "@arr/reduce": "^1.0.1",
+    "error-if-length-is-zero": "^1.0.1",
+    "error-if-not-finite-number": "^2.0.0"
   }
 }

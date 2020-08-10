@@ -1,5 +1,6 @@
 import { getAverage, getProduct, getSum } from './index.js';
 
+
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let sum = getSum(nums);
 if (sum === 55)
@@ -45,10 +46,7 @@ else
 
 
 nums = [-10];
-console.log(getSum(nums));
-console.log(getProduct(nums));
-console.log(getAverage(nums));
-nums = [0];
-console.log(getSum(nums));
-console.log(getProduct(nums));
-console.log(getAverage(nums));
+if (getSum(nums) === -10 && getProduct(nums) === -10 && getAverage(nums) === -10)
+	console.log('test 7 passed');
+else
+	console.log('test 7 FAILED');

@@ -1,26 +1,13 @@
-import {errorIfNotFiniteNumber} from 'error-if-not-finite-number';
-import {errorIfLengthIsZero} from 'error-if-length-is-zero';
+import {getNumbersReduced} from './__privy.js';
 
 
 export function getSum(numbers) {
-	errorIfLengthIsZero(numbers);
-
-	for (var i = 0, total = 0; i < numbers.length; ++i) {
-		errorIfNotFiniteNumber(numbers[i]);
-		total += numbers[i];
-	}
-	return total;
+	return getNumbersReduced(numbers, (sum, value) => sum + value, 0);
 }
 
 
 export function getProduct(numbers) {
-	errorIfLengthIsZero(numbers);
-
-	for (var i = 0, product = 1; i < numbers.length; ++i) {
-		errorIfNotFiniteNumber(numbers[i]);
-		product *= numbers[i];
-	}
-	return product;
+	return getNumbersReduced(numbers, (product, value) => product * value, 1);
 }
 
 
