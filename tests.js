@@ -2,6 +2,7 @@ import { getAverage, getProduct, getSum } from './index.js';
 
 
 let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 let sum = getSum(nums);
 if (sum === 55)
     console.log('test 1 passed');

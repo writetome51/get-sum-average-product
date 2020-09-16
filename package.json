@@ -1,13 +1,19 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
   "type": "module",
   "main": "index.js",
   "keywords": [
     "math",
     "numbers",
-    "functions"
+    "functions",
+    "add",
+    "multiply",
+    "average",
+    "sum",
+    "product"
+
   ],
   "repository": {
     "type": "git",
@@ -21,7 +27,7 @@
   "homepage": "https://github.com/writetome51/get-sum-average-product#readme",
   "dependencies": {
     "@arr/reduce": "^1.0.1",
-    "error-if-length-is-zero": "^1.0.1",
-    "error-if-not-finite-number": "^2.0.0"
+    "error-if-length-is-zero": ">=1.0.1",
+    "error-if-not-finite-number": ">=2.0.1"
   }
 }
