@@ -1,9 +1,10 @@
 {
   "name": "@writetome51/get-sum-average-product",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "3 functions: getSum(), getAverage(), getProduct()",
   "type": "module",
   "main": "index.js",
+  "types": "index.d.ts",
   "keywords": [
     "math",
     "numbers",
@@ -13,7 +14,6 @@
     "average",
     "sum",
     "product"
-
   ],
   "repository": {
     "type": "git",
